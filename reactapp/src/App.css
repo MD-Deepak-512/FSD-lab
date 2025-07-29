@@ -1,0 +1,29 @@
+#main{
+  transform:translate(30%,30%);
+}
+button{
+  padding:15px;
+  background-color: rgb(20, 117, 20);
+  font-size: large;
+  margin:10px 5px;
+  border-radius: 10px;
+  border:none;
+  width: 100px;
+  color:white;
+  font-weight: 500;
+}
+#counter{
+  font-size: x-large;
+  font-weight: 500;
+  padding:15px 50px;
+  background-color: rgb(19, 82, 219);
+  width:150px;
+  border-radius: 20px;
+  color:white;
+}
+input{
+  padding:10px 10px;
+  border-radius:10px;
+  border:0.2px solid black;
+  margin:0px 20px;
+}

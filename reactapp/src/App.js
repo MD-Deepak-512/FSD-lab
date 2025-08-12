@@ -3,12 +3,19 @@ import './App.css';
 import { Component } from 'react';
 import Counter from './counter';
 import Conditionalrender from './conditionalrender';
-function App() {
-  
+import Name from './Name';
+import Apidata from './Apidata';
+import DogsApp from './DogApp';
+
+function App()
+ {
   return (
     <>
-    <Counter/>
+    {/* <Counter/> */}
     {/* <Conditionalrender/> */}
+    {/* <Apidata/> */}
+    <DogsApp/>
+    {/* <Name/> */}
     </>
   );
 }

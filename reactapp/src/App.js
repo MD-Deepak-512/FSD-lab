@@ -12,8 +12,8 @@ function App()
  {
   return (
     <>
-    <Propexp2/>
-    {/* <AppPassData/> */}
+    {/* <Propexp2/> */}
+    <AppPassData/>
     {/* <Counter/> */}
     {/* <Conditionalrender/> */}
     {/* <Apidata/> */}

@@ -1,16 +1,15 @@
 import React from 'react'
-import Firstcomp from './prop/Firstcomp'
+import FirstComp from './prop/Firstcomp'
 import SecondComp from './prop/SecondComp'
 import ThirdComp from './prop/ThirdComp'
-
-
-const AppPassData = () => {
+function AppPassData() {
   return (
-    <>
-     <Firstcomp name="CSE" />
-      <SecondComp name="Data Science" />
-      <ThirdComp name="Artificial Intelligence" />
-    </>
+     <div>
+       <FirstComp name="CSE" />
+       <SecondComp  name = "Data Science"/>
+       <ThirdComp name = "Artificial Intelligence"/>
+    </div>
   )
 }
+
 export default AppPassData
